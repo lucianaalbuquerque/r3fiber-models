@@ -1,0 +1,23 @@
+/* Layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(13, 9, 36);
+  height: 100vh;
+
+  .section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .preview {
+    height: 80vh;
+    width: 60vw;
+    border:3px red;
+  }
+}
